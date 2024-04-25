@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subit Paudyal Lab 2</title>
+</head>
+<body>
+    <form>
+        <p>
+        <label for="selPar">What is the par for the hole:</label>
+        <select id="selPar">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        </p>
+                
+        <label for="numScore">Please enter your score:</label>
+        <input type="number" id="numScore" min ="1" max ="10">
+
+        <input type="button" id="btnRating" value="Get your Rating">
+        <input type="reset">
+
+    </form>
+
+    <script src="scripts/ratings.js"></script>
+    <script src="scripts/score.js"></script>
+
+</body>
+</html>
